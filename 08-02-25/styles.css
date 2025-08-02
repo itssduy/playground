@@ -1,0 +1,24 @@
+main {
+    display: flex;
+}
+
+.square {
+    width: 200px;
+    height: 200px;
+}
+
+.red {
+    background-color: #ff0000;
+    transform: translate(100px) rotate(45deg) translate(400px) scale(1.5);
+}
+
+.blue {
+    background-color: blue;
+    transform: translate(50px) rotate(45deg) translate(200px) scale(1.5);
+
+}
+
+.green {
+    background-color: green;
+    transform: rotate(45deg) skew(15deg);
+}
