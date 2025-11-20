@@ -76,9 +76,25 @@ main {
 
 .games .tabs {
     display: flex;
+    width: 100%;
+
+    justify-content: space-between;
 }
 
+.games-tabs {
+    display: flex;
+    justify-content: space-around;
+}
+.games-list {
+    width: 100%;
+    justify-content: space-between;
+}
+.games-list li{
+    display: flex;
 
+    
+
+}
 
 footer {
     display: flex;
