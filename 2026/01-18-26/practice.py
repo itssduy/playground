@@ -18,8 +18,16 @@ def largest_number(l):
             largest = i
     return largest
 
-def is_palindrome(string):
-    return string == string[::-1]
+def is_palindrome(word):
+    mid = len(word)//2
+    maxlen = len(word)
+    for i in range(mid):
+        if word[i] != word[maxlen-i-1]:
+            return False
+    return True
+            
+        
+
 
 def count_words(sentence):
     word_list = sentence.split(" ")
