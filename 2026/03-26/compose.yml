@@ -1,0 +1,4 @@
+services:
+  frontend:
+    build: frontend
+    ports: 10.230.173.166:5173
